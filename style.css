@@ -1,4 +1,5 @@
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, 
 blockquote, pre, a, abbr, acronym, address, big,
@@ -36,7 +37,7 @@ text-decoration: none;
 #main-header {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: #000000;
-	height: 80px;
+	
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -107,10 +108,11 @@ nav {
 .box1{
 
 	margin:80px 0px 40px 0px;
-	padding:10px 150px 0px 150px;
-	height: 238px;
-/*	background-color: #76998d;*/
+	padding:100px 150px 20px 150px;
+	/*height: 117px;*/
+	/*background-color: #76998d;*/
 	position: center;
+	text-align: center;
 
 }
 
@@ -120,11 +122,41 @@ margin :0px 160px 0px 160px;
 
 }
 
+.box3{
+
+height: 316px;
+/*background-color: #76998d;*/
+background-color: rgba(0, 0, 0, 0.3);
+background-image: url(http://www.ead.pucv.cl/wp-content/uploads/2014/09/04-proceso-de-serigrafia-03.jpg);
+background-color: rgba(0, 0, 0, 0.3);
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+
+.box4{
+
+height: 316px;
+background-image: url(http://wiki.ead.pucv.cl/images/c/c5/Registrointerac5.JPG);
+
+}
+
+
+.box5{
+
+height: 316px;
+background-image: url(http://f5-preview.awardspace.net/anay.design/wp-content/uploads/2014/09/Post-it.jpg);
+color:rgba(0, 0, 0, 10);
+opacity: 30%;
+}
 .horizontal{
 
 	width: 951px;
 	height: 1px;
-	border: solid 2px #94c8b7;
+	border: solid 1px #94c8b7;
 	background-color: #94c8b7;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -133,12 +165,27 @@ margin :0px 160px 0px 160px;
 
 h1{ /*experiencia de usuarios*/
 
-	font-family: "AmaticaSC";
+	font-family: "Amatica SC";
 	font-size: 70px;
 	text-align: center;
 	color: #000000;
 	padding-top: 40px;
 	padding-bottom: 20px;
+
+}
+
+
+h2 {
+	width: 363px;
+	height: 23px;
+	font-family: "Ubuntu";
+	font-size: 20px;
+	font-weight: 500;
+	color: #000000;
+	padding-top:20px;
+	line-height: 25px;
+	background-color: 
+	
 }
 
 h3{
@@ -154,37 +201,49 @@ h3{
 	line-height: 25px;
 }
 
-h2 {
-	width: 363px;
-	height: 23px;
-	font-family: "Ubuntu";
-	font-size: 20px;
-	font-weight: 500;
-	color: #000000;
-	padding-top:20px;
-	line-height: 25px;
-	background-color: 
-	
+h4{
+font-family: "Amatica SC";
+font-size: 60px;
+text-align: center;
+color:#ffffff;
+padding-top: 90px;
+}
+
+
+h6{
+font-family: "Amatica SC";
+font-size: 30px;
+text-align: center;
+color:#000000;
 }
 
 
 
 p {
-	width: 363px;
+	/*width: 363px;*/
 	font-family: "Ubuntu";
 	font-size: 17px;
 	font-weight: 300;
 	line-height: 2,4;
 	color: #000000;
 	line-height: 25px;
-	padding-bottom: 20px;
+	margin-top: 0px;
+	padding-bottom: 0px;
 	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-h6{
-font-family: "AmaticaSC";
-font-size: 30px;
-text-align: center;
+.phome {
+	font-family: "Ubuntu";
+	font-size: 20px;
+	font-weight: 300;
+	color: #ffffff;
+	text-align: center;
+
+
+
+}
 
 
 }
