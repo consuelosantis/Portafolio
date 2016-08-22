@@ -109,7 +109,7 @@ nav {
 	margin:80px 0px 40px 0px;
 	padding:10px 150px 0px 150px;
 	height: 238px;
-	background-color: #76998d;
+/*	background-color: #76998d;*/
 	position: center;
 
 }
@@ -133,7 +133,7 @@ margin :0px 160px 0px 160px;
 
 h1{ /*experiencia de usuarios*/
 
-	font-family: "Amatica SC";
+	font-family: "AmaticaSC";
 	font-size: 70px;
 	text-align: center;
 	color: #000000;
