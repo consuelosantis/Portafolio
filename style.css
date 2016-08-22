@@ -125,14 +125,9 @@ margin :0px 160px 0px 160px;
 .box3{
 
 height: 316px;
-/*background-color: #76998d;*/
-background-color: rgba(0, 0, 0, 0.3);
-background-image: url(http://www.ead.pucv.cl/wp-content/uploads/2014/09/04-proceso-de-serigrafia-03.jpg);
-background-color: rgba(0, 0, 0, 0.3);
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+background-image: url(disenoanalogo.jpg);
+background-color: rgba(0, 0, 0, 4);
+ 
 
 }
 
@@ -140,17 +135,23 @@ background-color: rgba(0, 0, 0, 0.3);
 .box4{
 
 height: 316px;
-background-image: url(http://wiki.ead.pucv.cl/images/c/c5/Registrointerac5.JPG);
+background-image: url(disenodeinteraccion.jpg);
+background-size: cover;
 
 }
 
 
 .box5{
+	background: url("experienciadeusuario.jpg")repeat-x left top;
+	height: 316px;
+	  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
 
-height: 316px;
-background-image: url(http://f5-preview.awardspace.net/anay.design/wp-content/uploads/2014/09/Post-it.jpg);
-color:rgba(0, 0, 0, 10);
-opacity: 30%;
+
+
 }
 .horizontal{
 
