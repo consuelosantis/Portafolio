@@ -205,6 +205,30 @@ position: absolute;
    background-image: url(img/afichepolitico.gif);
   border: solid 1px #94c8b7;
 }
+
+
+.img8{
+
+position: absolute;
+  width: 289px;
+  height: 208px;
+  
+   background-size: cover;
+   background-image: url(img/exploradordearte.gif);
+  border: solid 1px #94c8b7;
+}
+
+.img7{
+
+position: absolute;
+  width: 289px;
+  height: 208px;
+  
+   background-size: cover;
+   background-image: url(img/estereopsis.gif);
+  border: solid 1px #94c8b7;
+}
+
 .footer{
 height: 100px;
 background-color: rgba(0, 0, 0, 0.8);
