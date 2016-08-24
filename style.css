@@ -1,3 +1,5 @@
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, 
 blockquote, pre, a, abbr, acronym, address, big,
@@ -25,8 +27,8 @@ center, u, b, i {
 	padding-top: 80px;
 	margin-left: 20px;
 	margin-right: 20px;
-color:#ffffff;
-text-decoration: none;
+	color:#ffffff;
+	text-decoration: none;
 	text-decoration-color: none;
 	 /* Relleno superior igual a la altura de la cabecera*/
 
@@ -35,13 +37,14 @@ text-decoration: none;
 #main-header {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: #000000;
-	
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 	font-family: "Ubuntu";
 	color: #000000;
+	z-index: 3;
+
 
 }
 }	
@@ -92,12 +95,16 @@ nav {
 				text-decoration: none;
 				text-decoration-color: none;
 				color:#ffffff;
+
+			
+}
 			}
 			
-				nav ul li a:hover { /*cuadro que interatua con mouse*/
-					background:  #76998d;
+				nav ul li a :hover { /*cuadro que interatua con mouse*/
+					color: #76998d;
 					text-decoration: none;
-	text-decoration-color: none;
+					text-decoration-color: none;
+					z-index: 4;
 				}
 
 	
@@ -112,6 +119,7 @@ nav {
 	position: center;
 	text-align: center;
 
+
 }
 
 .box2{
@@ -123,29 +131,54 @@ margin :0px 160px 0px 160px;
 .box3{
 
 height: 316px;
-background-image: url("img/disenoanalogo.jpg");
-background-color: rgba(0, 0, 0, 4);
- 
+background-image: url(img/disenoanalogo.gif);
+background-size: cover;
+position: relative;
+z-index: 1;
 
+}
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 2;
+}
+
+.content-box {
+	z-index: 3;
+	position: relative;
 }
 
 
 .box4{
 
 height: 316px;
-background-image: url("img/disenodeinteraccion.JPG");
+background-image: url(img/disenodeinteraccion.gif);
 background-size: cover;
+position: relative;
+z-index: 1;
 
 }
 
 
 .box5{
-	background: url("img/experienciadeusuario.jpg")repeat-x left top;
+	background: url("img/experienciadeusuario.gif")repeat-x left top;
 	height: 316px;
-	  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+	position: relative;
+	z-index: 1;
+   	background-size: cover;
+}
+
+.footer{
+height: 100px;
+background-color: rgba(0, 0, 0, 0.8);
+color: #000000;
+width: 100%; 
+
+
 }
 
 
@@ -168,8 +201,7 @@ h1{ /*experiencia de usuarios*/
 	font-size: 70px;
 	text-align: center;
 	color: #000000;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	
 
 }
 
@@ -188,15 +220,13 @@ h2 {
 }
 
 h3{
-	height: 84px;
+
 	font-family: "Ubuntu";
 	font-size: 20px;
 	font-weight: 300;
 	text-align: center;
 	color: #000000;
 	padding-bottom: 40px;
-	padding-right: 80px;
-	padding-left: 80px;
 	line-height: 25px;
 }
 
@@ -240,25 +270,4 @@ p {
 	color: #ffffff;
 	text-align: center;
 
-
-
-}
-
-
-}
-#footer{
-	margin-top: 180px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	background:  #000000;
-	color:#ffffff;
-}
-
-#footer li{
-	font-family:'Ubuntu', sans-serif;
-	font-size:15px;
-	text-align: center
-	color:#ffffff;
-
-}
 }
