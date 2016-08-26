@@ -207,7 +207,19 @@ nav ul li a:hover {
     color: #000000;
     width: 100%;
 }
+
+.list{
+color: #ffffff;
+    font-family: "ubuntu";
+font-size: 15px;
+text-decoration: none;
+text-decoration-color: none;
+list-style: none;
+padding: 20px;
+
 }
+
+
 .horizontal {
     width: 951px;
     height: 1px;
@@ -216,67 +228,27 @@ nav ul li a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-h1 {
-    /*experiencia de usuarios*/
-    
-    font-family: "Amatic SC";
-    font-size: 70px;
-    text-align: center;
-    color: #000000;
-}
-h2 {
-    width: 363px;
-    height: 23px;
-    font-family: "Ubuntu";
-    font-size: 20px;
-    font-weight: 500;
-    color: #000000;
-    padding-top:20px;
-    line-height: 25px;
-    background-color:
-}
-h3 {
-    font-family: "Ubuntu";
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    color: #000000;
-    padding-bottom: 40px;
-    line-height: 25px;
-}
+
+
 h4 {
-    font-family: "Amatica SC";
+    font-family: "Amatic SC";
     font-size: 60px;
     text-align: center;
     color:#ffffff;
     padding-top: 90px;
 }
 h6 {
-    font-family: "Amatica SC";
+    font-family: "Amatic SC";
     font-size: 30px;
     text-align: center;
     color:#000000;
 }
-p {
-    /*width: 363px;*/
-    
-    font-family: "Ubuntu";
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 2,
-    4;
-    color: #000000;
-    line-height: 25px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 .phome {
     font-family: "Ubuntu";
     font-size: 20px;
     font-weight: 300;
     color: #ffffff;
     text-align: center;
+
 }
