@@ -54,7 +54,7 @@ center, u, b, i {
     color: #000000;
     z-index: 3;
 }
-}
+
 #main-header a {
     font-family: "Ubuntu";
     color: #ffffff;
@@ -63,7 +63,7 @@ center, u, b, i {
     padding-right: 60px;
     padding-bottom: 80px;
     padding-left: 80px
-}
+
 }
 /*
  * Navegación
