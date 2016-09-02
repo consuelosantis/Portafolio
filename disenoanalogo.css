@@ -283,7 +283,7 @@ width: 100%;
 
 h1{ /*experiencia de usuarios*/
 
-	font-family: "Amatic SC";
+	font-family: "Amatica SC";
 	font-size: 70px;
 	text-align: center;
 	color: #000000;
@@ -327,9 +327,11 @@ h5{
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
+
+
 .vertical1 {
 	width: 1px;
-	height: 81px;
+	height: 51px;
 	border: solid 1px #94c8b7;
 	background-color: #94c8b7;
 	position: absolute;
@@ -351,3 +353,40 @@ li{
 	line-height: 20px;
 }
 
+h6{
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+  text-decoration-color: none;
+  padding-top: 10px;
+
+}
+
+.boton{
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-style: 300px;
+  color: blue;
+  background-color: #8CD1BA;
+  border: solid #94c8b7 2px;
+  text-decoration: none;
+  width: 116px;
+  height: 37px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+text-align: center;
+
+}
+
+.boton:hover {
+  background: #27c490;
+  text-decoration: none;
+  color: #ffffff;
+  color: blue;
+
+}
+
+}
