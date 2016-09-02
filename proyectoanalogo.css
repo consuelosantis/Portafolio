@@ -1,0 +1,344 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+center,
+u,
+b,
+i {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+*body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration-color: none;
+    /* Relleno superior igual a la altura de la cabecera*/
+}
+#main-header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #000000;
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
+    
+    left: 0;
+    /* Posicionamos la cabecera al lado izquierdo */
+    
+    top: 0;
+    /* Posicionamos la cabecera pegada arriba */
+    
+    position: fixed;
+    /* Hacemos que la cabecera tenga una posición fija */
+    
+    font-family: "Ubuntu";
+    color: #000000;
+    z-index: 3;
+}
+}
+#main-header a {
+    font-family: "Ubuntu";
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+    padding-left: 80px
+}
+}
+/*
+ * Navegación
+ */
+
+nav {
+    float: right;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-family: "Ubuntu";
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a {
+    /*textos menu*/
+    
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-decoration-color: none;
+    color:#ffffff;
+}
+nav ul li a:hover {
+    /*cuadro que interatua con mouse*/
+    
+    background-color: #76998d;
+    color: #fff;
+    text-decoration: none;
+    text-decoration-color: none;
+    z-index: 4;
+}
+
+
+.contenedor1{
+/*background-color:  #B8E986;*/
+height: 374px;
+margin-top: 80px;
+position: relative;
+padding-top: 20px;
+
+
+}
+
+.box2{
+	
+	height: 332px;
+    width: 33%;
+    left: 160px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+	 /*background-color: #97839E;*/
+	 position: absolute;	
+     padding-top: 30px; 
+
+}
+
+.img1{
+
+position: absolute;
+  width: 519px;
+  height: 374px;  
+  right: 160px; 
+  background-size: cover;
+   background-image: url(img/analogo/cerromerced05.png);
+  align-content: right;
+
+ 
+ /* background-image: url(img/senaleticacerromerced.gif);*/
+}
+
+.box3{
+
+    width: 100%;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     /*background-color:blue;*/
+     position: relative;     
+
+
+
+}
+.contenedor2{
+
+width: 38%;
+left: 160px;
+position: absolute;
+/*background-color: bisque;*/
+margin-top: 30px;
+
+}
+
+
+.footer{
+height: 100px;
+background-color: rgba(0, 0, 0, 0.8);
+color: #000000;
+width: 100%; 
+
+}
+
+.img2{
+
+position: absolute;
+  width: 436px;
+  height: 226px;  
+  right: 160px; 
+  background-size: cover;
+  background-image: url(img/analogo/cerromerced01.png);
+  align-content: right;
+ top: 30px;
+}
+
+.img3{
+
+position: absolute;
+  width: 436px;
+  height: 226px;  
+  right: 160px; 
+  background-size: cover;
+   background-image: url(img/analogo/cerromerced04.png);
+  align-content: right;
+ top:286px;
+}
+
+.img4{
+
+position: absolute;
+  width: 436px;
+  height: 226px;  
+  right: 160px; 
+  background-size: cover;
+   background-image: url(img/analogo/cerromerced03.png);
+  align-content: right;
+ top:542px;
+}
+
+.img5{
+
+position: absolute;
+  width: 436px;
+  height: 226px;  
+  right: 160px; 
+  background-size: cover;
+   background-image: url(img/analogo/cerromerced02.png);
+  align-content: right;
+ top:798px;
+}
+
+h1{ /*experiencia de usuarios*/
+
+	font-family: "Amatic SC";
+	font-size: 70px;
+	text-align: left;
+	color: #000000;
+    line-height: 65px;
+    padding-bottom: 20px;
+	
+
+}
+
+ul li :{
+
+list-style: none;
+text-decoration: none;
+text-decoration-color: none;
+font-family: "Ubuntu";
+font-size: 15px;
+color: #000000;
+font-weight: 300;
+font-style: italic;
+padding-left: 20px;
+line-height: 20px;
+
+
+
+}
+
+li{
+
+    font-family: "Ubuntu";
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    text-decoration: none;
+    text-decoration-color: none;
+    list-style: none;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+
+h2 {
+	font-family: "Ubuntu";
+	font-size: 20px;
+	font-weight: 500;
+	color: #000000;
+	line-height: 25px;
+    text-align: left;
+
+}
+
+p{
+
+    font-family: "Ubuntu";
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 25px;
+    padding-top: 2px;
+}
+
+.vertical1 {
+	width: 1px;
+	height: 81px;
+	border: solid 1px #94c8b7;
+	background-color: #94c8b7;
+	position: absolute;
+	margin:0px;
+	padding-top: 20px;
+
+}
+
+
+
+
