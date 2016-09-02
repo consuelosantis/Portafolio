@@ -199,14 +199,24 @@ nav ul li a:hover {
     background-size: cover;
 }
 .footer {
-    height: 100px;
+    height: 70px;
     background-color: rgba(0,
     0,
     0,
     0.8);
-    color: #000000;
     width: 100%;
+    color: #000000;;
+    font-family: "ubuntu";
+    font-family: "ubuntu";
+font-size: 15px;
+text-decoration: none;
+text-decoration-color: none;
+list-style: none;
+    
+
+
 }
+
 
 .list{
 color: #ffffff;
