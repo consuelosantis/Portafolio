@@ -80,20 +80,6 @@ i {
     /* Relleno superior igual a la altura de la cabecera*/
 }
 
-/*Clearfix*/
-.clearfix:before, .clearfix:after {
-    content: "";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix:before {
-    *zoom: 1;   /*permite escalar el contenido*/
-}
-
 
 #main-header {
     background-color: rgba(0, 0, 0, 0.8);
