@@ -1,84 +1,6 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-center,
-u,
-b,
-i {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-weight: normal;
-    font-style: normal;
-    vertical-align: baseline;
-    text-decoration: none;
-}
-*body {
-    background: #ffffff;
-    margin: 0;
-    padding: 0;
-    padding-top: 80px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: #ffffff;
-    text-decoration: none;
-    text-decoration-color: none;
-    /* Relleno superior igual a la altura de la cabecera*/
-}
+
+
+
 #main-header {
     background-color: rgba(0, 0, 0, 0.8);
     color: #000000;
@@ -103,59 +25,108 @@ i {
     font-family: "Ubuntu";
     color: #ffffff;
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     padding-right: 60px;
     padding-bottom: 80px;
     padding-left: 80px
 }
 }
-/*
- * Navegación
- */
 
-nav {
-    float: right;
-    text-decoration: none;
-    text-decoration-color: none;
+
+#main-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #000000;
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
+    
+    left: 0;
+    /* Posicionamos la cabecera al lado izquierdo */
+    
+    top: 0;
+    /* Posicionamos la cabecera pegada arriba */
+    
+    position: fixed;
+    /* Hacemos que la cabecera tenga una posición fija */
+    
+    font-family: "Ubuntu";
+    color: #000000;
+    z-index: 3;
 }
-nav ul {
+}
+#main-header a {
+    font-family: "Ubuntu";
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+    padding-left: 80px
+    font-weight: 300;
+}
+}
+
+body {
+    background: #ffffff;
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-align: center;
-    font-family: "Ubuntu";
-}
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-}
-nav ul li a {
-    /*textos menu*/
-    
-    display: block;
-    padding: 0 20px;
-    text-decoration: none;
+    padding-top: 80px;
+    color: #ffffff;
     text-decoration: none;
     text-decoration-color: none;
-    color:#ffffff;
+    text-align: center;
+    /* Relleno superior igual a la altura de la cabecera*/
 }
-nav ul li a:hover {
-    /*cuadro que interatua con mouse*/
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #000000;
+    width: 100%;
+    font-family: "Ubuntu";
+    z-index: 3;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    float: center;
+}
+
+nav a {
+    color: #fff;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px
     
+}
+
+nav a:hover, nav a:active{
     background-color: #76998d;
     color: #fff;
     text-decoration: none;
     text-decoration-color: none;
     z-index: 4;
+   
 }
 
+nav a#pull {
+    display: none;
+}
 
 .box1{
 
 	margin:80px 0px 40px 0px;
 	padding:100px 150px 20px 150px;
 	/*height: 117px;*/
-	/*background-color: #76998d;*/
+	background-color:white;
 	position: center;
 	text-align: center;
 
@@ -279,4 +250,49 @@ p {
 }
 
 
+@media all and (max-width: 700px) {
+    nav {
+        border-bottom: 0;
+    }
+
+    nav ul {
+        display: none;
+        height: auto;
+    }
+
+    nav a#pull {
+        display: block;
+      background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        position: relative;
+    }
+
+    
+    }
+
+    h4 {
+    font-family: "Amatic SC";
+    font-size: 55px;
+    text-align: center;
+    color:#ffffff;
+    padding-top: 90px;
+}
+h6 {
+    font-family: "Amatic SC";
+    font-size: 25px;
+    text-align: center;
+    color:#000000;
+}
+}
+
+
+@media all and (max-width: 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+
+}
 

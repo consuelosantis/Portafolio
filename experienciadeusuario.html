@@ -7,7 +7,26 @@
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500" rel="stylesheet">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+		<script src="js/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 
 		<title> Book Consuelo Santis </title>
 
@@ -24,7 +43,8 @@
                 <li><a href="disenodeinteraccion.html"> Diseño de Interacción</a></li>
                 <li><a href="experienciadeusuario.html"> Experiencia de Usuario</a></li>
                 <li><a href="#"> Contacto</a></li>
-		</ul> 
+		</ul>
+		<a href="#" id="pull">Menú</a> 
 	</nav>
 
 	</header> <!-- / #main-header -->
