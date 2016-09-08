@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="estilo.css">
+<head>
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500" rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="normalize.css">
+
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+<title>Book Consuelo Santis</title>
+</head>
+<body>
+
+<header id ="main-header">
+	   
+	<nav class="clearfix">
+		<ul class="clearfix">
+		 <li><a href="index.html"> Índice</a></li>
+                <li><a href="disenoanalogo.html"> Diseño Análogo</a></li>
+                <li><a href="disenodeinteraccion.html"> Diseño de Interacción</a></li>
+                <li><a href="experienciadeusuario.html">Experiencia de Usuario</a></li>
+                <li><a href="#"> Contacto</a></li>
+		</ul> 
+	</nav>
+
+	</header> <!-- / #main-header -->
+
+
+<nav>	
+
+ <div>
+        <div class="box1">
+            <h1>Contacto</h1>
+            <h3>Consuelo Santis Escudero, Diseñadora gráfica, Viña del mar.</h3>
+            <p>Dentro del mundo académico me he desenvuelto en proyectos editoriales y de investigación. Mientras el acercamiento al mundo digital ocurre de mano con la vida laboral, donde las herramientas de investigación de usuarios como de servicios se ponen en acción.
+
+        </div>
+
+
+<section class="formulario">
+
+<form action="contacto.php" method="post">
+<label for="nombre">Nombre:</label>
+<input id="nombre" type="text" name="nombre" placeholder="Nombre y Apellido" required="" />
+<label for="email">Email:</label>
+<input id="email" type="email" name="email" placeholder="ejemplo@correo.com" required="" />
+<label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" placeholder="Mensaje" required=""></textarea>
+<input id="submit" type="submit" name="submit" value="Enviar" />
+</form>
+</section>
+
+
+<footer>
+	<div class="footer">
+		<ul class="list">
+			<li>Consuelo Santis Escudero/</li>
+			<li>Diseñadora Gráfica PUCV</li>
+			
+			
+		</ul>
+		
+	</div>
+
+</footer>
+</body>
+</html>

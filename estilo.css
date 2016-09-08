@@ -1,3 +1,4 @@
+
 html,
 body,
 div,
@@ -135,11 +136,7 @@ i {
 }
 
 body {
-    background: #ffffff;
-    margin: 0;
-    padding: 0;
-    padding-top: 80px;
-    color: #ffffff;
+  
     text-decoration: none;
     text-decoration-color: none;
     text-align: center;
@@ -216,81 +213,50 @@ nav ul li a:hover {
     z-index: 4;
 }
 
+h1{ /*experiencia de usuarios*/
 
-.box1 {
-    margin:80px 0px 40px 0px;
-    margin-top: 100px;
-    background-color: #fff;
-    position: center;
-    text-align: center;
-}
-.box2 {
-    margin:0px 160px 0px 160px;
-}
-.box3 {
-    height: 316px;
-    background-image: url(img/disenoanalogo.gif);
-    background-size: cover;
-    position: relative;
-    z-index: 1;
-    }
-
-
-  .box3:hover {
- opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+	font-family: "Amatic SC";
+	font-size: 70px;
+	text-align: center;
+	color: #000000;
 
 }
 
+.box1{
 
-.mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,
-    0,
-    0,
-    .3);
-    z-index: 2;
+	margin:80px 0px 40px 0px;
+	padding:10px 150px 20px 150px;
+	/*height: 117px;*/
+	background-color:white;
+	position: center;
+	text-align: center;
+	}
 
-}
-.content-box {
-    z-index: 3;
-    position: relative;
-}
-.box4 {
-    height: 316px;
-    background-image: url(img/disenodeinteraccion.gif);
-    background-size: cover;
-    position: relative;
-    z-index: 1;
+	h3{
+
+	font-family: "Ubuntu";
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	color: #000000;
+	line-height: 25px;
 }
 
-.box4:hover {
- opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-
-}
-
-.box5 {
-    background: url("img/experienciadeusuario.gif")repeat-x left top;
-    height: 316px;
-    position: relative;
-    z-index: 1;
-    background-size: cover;
-}
-
-
-.box5:hover {
- opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-
+p {
+	font-family: "Ubuntu";
+	font-size: 17px;
+	font-weight: 300;
+	color: #000000;
+	line-height: 24px;
+	text-align: center;
+	padding-top: 10px;
+	
 }
 
 .footer {
-    height: 70px;
+    height:100px;
+    margin-bottom: 0px;
+    margin-top: 80px;
     background-color: rgba(0,
     0,
     0,
@@ -302,7 +268,7 @@ nav ul li a:hover {
 font-size: 15px;
 text-decoration: none;
 text-decoration-color: none;
-list-style: none;
+
     
 
 
@@ -316,90 +282,53 @@ font-size: 15px;
 text-decoration: none;
 text-decoration-color: none;
 list-style: none;
-padding: 20px;
+padding-right:  20px;
 text-align: right;
 font-weight: 300;
 
 }
 
+label {
+display:block;
+margin-top:20px;
+letter-spacing:1px;
+}
+.formulario {
+display:block;
+margin:0 auto;
+width:510px;
+color: #000;
+font-family:"Ubuntu";
+font-size: 20px;
+font-weight: 500px;
+}
 
-.horizontal {
-    width: 951px;
-    height: 1px;
-    border: solid 1px #94c8b7;
-    background-color: #94c8b7;
-    margin-top: 20px;
-    margin-bottom: 20px;
+form {
+margin:0 auto;
+width:400px;
+}
+
+input, textarea {
+width:380px;
+height:27px;
+background:rgba(148, 200, 186, 0.54);
+border:2px solid rgba(148, 200, 186, 0.54);
+padding:10px;
+margin-top:5px;
+font-size:17px;
+font-weight: 300i;
+color:#000;
 }
 
 
-h4 {
-    font-family: "Amatic SC";
-    font-size: 60px;
-    text-align: center;
-    color:#ffffff;
-    padding-top: 90px;
-    z-index: 4;
-
+textarea {
+height:150px;
 }
 
-
-h6 {
-    font-family: "Amatic SC";
-    font-size: 30px;
-    text-align: center;
-    color:#000000;
-}
-.phome {
-    font-family: "Ubuntu";
-    font-size: 20px;
-    font-weight: 300;
-    color: #ffffff;
-    text-align: center;
-     padding-right: 100px;
-    padding-left: 100px;
-
-}
-
-
-
-@media all and (max-width: 700px) {
-
-    body {
-
-        background-color: red;
-
-    
-    }
-
-    h4 {
-    font-family: "Amatic SC";
-    font-size: 55px;
-    text-align: center;
-    color:#ffffff;
-    padding-top: 90px;
-}
-
-
-
-
-.phome {
-    font-family: "Ubuntu";
-    font-size: 18px;
-    font-weight: 300;
-    color: #ffffff;
-    text-align: center;
-     padding-right: 20px;
-    padding-left: 20px;
-
-}
-
-@media all and (max-width: 320px) {
-    nav li {
-        display: block;
-        float: none;
-        width: 100%;
-    }
-
-
+#submit {
+width:85px;
+height:35px;
+border:none;
+margin-top:20px;
+cursor:pointer;
 }
