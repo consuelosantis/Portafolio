@@ -68,6 +68,12 @@ i {
     text-decoration: none;
 }
 
+html {
+         overflow-x: hidden;
+       }
+
+   
+
 #nav{
  background-color: rgba(0, 0, 0, 0.8);
     color: #000000;
@@ -85,33 +91,32 @@ i {
         display: none;
         text-decoration: none;
         font-family: "Ubuntu";
-        color: #ffffff;
-        text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
         text-decoration-color: none;
+        color: #fff;
 
     }
 
+     #nav a{
+         color: #fff;
+
+
+
+     }
     #nav li{
         position: relative;
         list-style: none;
         display: none;
         text-decoration: none;
         font-family: "Ubuntu";
-        color: #ffffff;
-        text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        text-decoration-color: none;
-    
+        
     }
  
     /* first level */
  
     #nav > ul
     {
-    text-decoration: none;
 
 
     }
@@ -120,6 +125,7 @@ i {
             padding: 20px;
             float: center;
             display: inline-block;
+            color: #000000;
 
         }
  
@@ -131,18 +137,24 @@ i {
         position: absolute;
         top: 100%;
         text-decoration: none;
+        text-align: right;
+
     }
         #nav li:hover ul
         {
             display: block;
+          background-color: red;
+
             
         }
 
-        @media only screen and ( max-width: 40em ) /* 640 */
+        @media only screen and ( max-width: 800px ) /* 640 */
 {
     #nav
     {
         position: relative;
+        text-decoration-color: none;
+        text-align: center;
     }
         #nav > a
         {
@@ -203,8 +215,8 @@ i {
         height: auto;
         display: none;
         position: absolute;
-        left: 0;
-        right: 0;
+        text-decoration-color: none;
+        background-color:  rgba(0, 0, 0, 0.9);
     }
         #nav:target > ul
         {
@@ -212,8 +224,9 @@ i {
         }
         #nav > ul > li
         {
-            width: 100%;
-            float: none;
+          
+    text-align: -webkit-auto;
+
         }
  
     /* second level */
@@ -228,7 +241,7 @@ i {
 
 
 .box1 {
-    margin:80px 0px 40px 0px;
+    margin:40px 0px 40px 0px;
     margin-top: 100px;
     background-color: #fff;
     position: center;
