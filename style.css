@@ -383,13 +383,6 @@ h6 {
 
 @media all and (max-width: 800px) {
 
-    body {
-
-     background-color: red;
-
-    
-    }
-
     h4 {
     font-family: "Amatic SC";
     font-size: 55px;
