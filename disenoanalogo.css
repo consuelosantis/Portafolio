@@ -275,12 +275,53 @@ html {
 
 }
 
+
 .box7:hover{
   opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
 
 }
 
+.box8{
+    height: 316px;
+    background-size: cover;
+    position: relative;
+    border: none;
+
+}
+
+.box8:hover{
+  opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+.box9{
+    height: 316px;
+    background-size: cover;
+    position: relative;
+    border: none;
+
+}
+
+.box9:hover{
+  opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+
+.box10{
+    height: 316px;
+    background-size: cover;
+    position: relative;
+    border: none;
+
+}
+
+.box10:hover{
+  opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
 .img{
   background-image: url("img/cerromerced.png");
@@ -308,6 +349,22 @@ position: absolute;
 
 .img4{
   background-image: url(img/afiche01.png);
+  width: 100%;
+position: absolute;
+ background-size: cover;
+
+}
+
+.img5{
+  background-image: url(img/mondrian.png);
+  width: 100%;
+position: absolute;
+ background-size: cover;
+
+}
+
+.img6{
+  background-image: url(img/estereopsis.png);
   width: 100%;
 position: absolute;
  background-size: cover;
