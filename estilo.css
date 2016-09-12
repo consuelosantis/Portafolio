@@ -272,6 +272,7 @@ p {
 	line-height: 24px;
 	text-align: center;
 	padding:60px;
+    padding-top: 10px;
 	
 }
 
@@ -314,12 +315,12 @@ letter-spacing:1px;
 }
 .formulario {
 display:block;
-margin:0 auto;
-width:510px;
+margin-bottom: 40px;
 color: #000;
 font-family:"Ubuntu";
 font-size: 20px;
 font-weight: 500px;
+
 }
 
 form {
@@ -374,12 +375,13 @@ color: #000;
 font-family:"Ubuntu";
 font-size: 20px;
 font-weight: 500px;
+margin-bottom: 40px;
 }
 
 form {
 margin-left: 10px;
 margin-right: 10px;
-width: 340px;
+width: 260px;
 }
 
 input, textarea {

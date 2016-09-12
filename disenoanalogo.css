@@ -561,9 +561,16 @@ font-weight: 300;
    background-color: #97839E;
    right: 160px;
    position: absolute;
+}
 
-  
-
+.box3{
+ width: 49%;
+  height: 208px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+   background-color: #97839E;
+   right: 160px;
+   position: absolute;
 }
 
 .img1{
