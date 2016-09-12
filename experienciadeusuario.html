@@ -1,53 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
-	
-	<head>
-		<link type="text/css" rel="stylesheet" href="styleexperienciadeusuarios.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500" rel="stylesheet">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="js/jquery.min.js"></script>
-	<script>
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
+    
+    <head>
+        <link type="text/css" rel="stylesheet" href="experienciadeusuarios.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,500" rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta charset="utf-8">
 
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
+    <title> Book Consuelo Santis </title>
+    </head>
 
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-	</script>
+    <body>      
 
-		<title> Book Consuelo Santis </title>
+    <header id ="main-header">
 
-	</head>
+<nav id="nav" role="navigation">
+    <a href="#nav" title="Show navigation">Menú</a>
+    <a href="#" title="Hide navigation">Menú</a>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li> <a href="disenoanalogo.html" aria-haspopup="true">Diseño análogo</a></li>
+        <li><a href="disenodeinteraccion.html" aria-haspopup="true">Diseño de Interacción</a></li>
 
-	<body>		
+        <li><a href="experienciadeusuario.html">Experiencia de Usuarios</a></li>
+         <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
 
-	<header id ="main-header">
-	   
-	<nav>
-		<ul>
-		  <li> <a href="index.html">índice</a></li>
-                <li><a href="disenoanalogo.html"> Diseño Análogo</a></li>
-                <li><a href="disenodeinteraccion.html"> Diseño de Interacción</a></li>
-                <li><a href="experienciadeusuario.html"> Experiencia de Usuario</a></li>
-                <li><a href="contacto.html"> Contacto</a></li>
-		</ul>
-		<a href="#" id="pull">Menú</a> 
-	</nav>
-
-	</header> <!-- / #main-header -->
+    </header> <!-- / #main-header -->
+   
 
 <nav>	
 <div >
@@ -61,7 +44,7 @@
 		<div class="box2">
 			<div class="texto">
 				<h2>Test de Usuarios</h2>
-				<p class="parrafo">Como herramientas de investigación los Test de usuarios permiten probar sitios webs para encontrar las falencias de navegación durante la interacción del sistema con los usuarios. 
+				<p>Como herramientas de investigación los Test de usuarios permiten probar sitios webs para encontrar las falencias de navegación durante la interacción del sistema con los usuarios. 
 
 				Donde los escenarios de interacción son una forma de creación de situaciones y contextos verosímiles, cada una de los cuales está determinado por la identificación de una meta a lograr. Generalmente, los primeros escenarios corresponden a un contexto iniciativo, de descubrimiento, para luego abordar una a una las tareas involucradas en el uso de un servicio, desde las básicas (simples) hasta las avanzadas (complejas). </p>
 			</div>	
@@ -88,7 +71,7 @@
 	<div class="contenedor1">
 		<div class="box2">
 			<div class="texto">
-				<h2>Benchmarck</h2>
+				<h2>Benchmark</h2>
 				<p class="parrafo">El evaluar un sitio web ayuda a conocer las fortalezas y debilidades del sistema, ayudando a entender en qué se debe mejorar, es en base a esto que podemos establecer una serie de conclusiones que ayudarán a generar una estrategias para dar un buen servicio a los usuarios permitiendo además cumplir con los objetivos del negocio.</p>
 			</div>	
 		</div>
@@ -97,23 +80,17 @@
 	</div>
 
 
-<footer>
-	<div class="footer">
-	<nav>
-		<ul>
-			<li> <a href="indexhome.html"> Home</a></li>
-			<li><a href="index.disenoanalogo.html"> Diseño Análogo</a></li>
-			<li><a href="indexdisenodeinteraccion.html"> Diseño de Interacción</a></li>
-			<li><a href="indexexperienciadeusuario.html"> Experiencia de Usuario</a></li>
-			<li><a href="#"> Contacto</a></li>
-			
-		</ul>
-	</nav>
-		
-	</div>
+ <footer>
+    <div class="footer">
+        <ul class="list">
+            <li>Consuelo Santis Escudero</li>
+            <li>Diseñadora Gráfica PUCV</li>
+        </ul>
+        
+    </div>
 
 </footer>
-		
-	
-	</body>
+
+</body>
+
 </html>
