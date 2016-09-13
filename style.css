@@ -141,10 +141,23 @@ html {
         text-align: right;
 
     }
-        nav li:hover {
+        nav li:hover, active{
             background-color:#76998d;
             
         }
+
+         nav li:{
+            background-color:#76998d;
+            
+        }
+
+         #nav .active{
+            background-color:#76998d;
+            
+        }
+
+
+
 
         @media only screen and ( max-width: 800px ) /* 640 */
 {
@@ -234,46 +247,78 @@ html {
         position: static;
     }
 }
+
 }
 
 
-h1{ /*experiencia de usuarios*/
 
-    font-family: "Amatic SC";
-    font-size: 70px;
+.box1 {
+    margin:40px 0px 40px 0px;
+    background-color: #fff;
+    position: center;
     text-align: center;
-    color: #000000;
-    padding-top: 40px;
+    }
+    
+.box3 {
+    height: 316px;
+    background-image: url(img/disenoanalogo.gif);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    }
+
+
+  .box3:hover {
+ opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 
 }
 
 
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,
+    0,
+    0,
+    .3);
+    z-index: 2;
 
+}
+.content-box {
+    z-index: 3;
+    position: relative;
+}
+.box4 {
+    height: 316px;
+    background-image: url(img/disenodeinteraccion.gif);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
 
-
-	h3{
-font-family: "Ubuntu";
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    color: #000000;
-    line-height: 25px;
-  padding-right: 60px;
-  padding-left: 60px;
+.box4:hover {
+ opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 
 }
 
+.box5 {
+    background: url("img/experienciadeusuario.gif")repeat-x left top;
+    height: 316px;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+}
 
-p {
-	font-family: "Ubuntu";
-	font-size: 17px;
-	font-weight: 300;
-	color: #000000;
-	line-height: 24px;
-	text-align: center;
-	padding:60px;
-    padding-top: 10px;
-	
+
+.box5:hover {
+ opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+
 }
 
 .footer {
@@ -308,118 +353,78 @@ text-align: right;
 font-weight: 300;
 
 }
-label {
-display:block;
-margin-top:20px;
-letter-spacing:1px;
-}
-.formulario {
-display:block;
-margin-bottom: 40px;
-color: #000;
-font-family:"Ubuntu";
-font-size: 20px;
-font-weight: 500px;
 
-}
 
-form {
-margin:0 auto;
-width:400px;
-}
-
-input, textarea {
-width:380px;
-height:27px;
-background:rgba(148, 200, 186, 0.54);
-border:2px solid rgba(148, 200, 186, 0.54);
-padding:10px;
-margin-top:5px;
-font-size:17px;
-font-weight: 300i;
-color:#000;
+.horizontal {
+    width: 951px;
+    height: 1px;
+    border: solid 1px #94c8b7;
+    background-color: #94c8b7;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
-textarea {
-height:150px;
-}
+h4 {
+    font-family: "Amatic SC";
+    font-size: 60px;
+    text-align: center;
+    color:#ffffff;
+    padding-top: 90px;
+    z-index: 4;
 
-#submit {
-width:85px;
-height:35px;
-border:none;
-margin-top:20px;
-cursor:pointer;
-}
-
-
-@media all and (max-width: 400px) {
-    nav li {
-        display: block;
-        float: none;
-        width: 100%;
-    }
-
-label {
-display:block;
-margin-top:20px;
-letter-spacing:1px;
-font-size: 16px;
-}
-.formulario {
-display:block;
-margin:10px;
-width:100%;
-color: #000;
-font-family:"Ubuntu";
-font-size: 20px;
-font-weight: 500px;
-margin-bottom: 40px;
-}
-
-form {
-margin-left: 10px;
-margin-right: 10px;
-width: 260px;
-}
-
-input, textarea {
-width:100%;
-height:27px;
-background:rgba(148, 200, 186, 0.54);
-border:2px solid rgba(148, 200, 186, 0.54);
-padding:10px;
-margin-top:5px;
-font-size:15px;
-font-weight: 300i;
-color:#000;
 }
 
 
-textarea {
-height:150px;
+h6 {
+    font-family: "Amatic SC";
+    font-size: 30px;
+    text-align: center;
+    color:#000000;
+}
+.phome {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+     padding-right: 100px;
+    padding-left: 100px;
+
 }
 
-#submit {
-width:85px;
-height:35px;
-border:none;
-margin-top:20px;
-cursor:pointer;
+
+
+@media all and (max-width: 800px) {
+
+  
+
+    h4 {
+    font-family: "Amatic SC";
+    font-size: 55px;
+    text-align: center;
+    color:#ffffff;
+    padding-top: 20px;
 }
 
 
-p {
+
+
+.phome {
     font-family: "Ubuntu";
     font-size: 17px;
     font-weight: 300;
-    color: #000000;
-    line-height: 24px;
+    color: #ffffff;
     text-align: center;
-    padding:10px;
-    
-}
-
+     padding-right: 20px;
+    padding-left: 20px;
 
 }
+
+.box1 {
+    margin:40px 0px 40px 0px;
+    background-color: #fff;
+    position: center;
+    text-align: center;
+    }
+
