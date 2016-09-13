@@ -141,10 +141,23 @@ html {
         text-align: right;
 
     }
-        nav li:hover {
+        nav li:hover, active{
             background-color:#76998d;
             
         }
+
+         nav li:{
+            background-color:#76998d;
+            
+        }
+
+         #nav .active{
+            background-color:#76998d;
+            
+        }
+
+
+
 
         @media only screen and ( max-width: 800px ) /* 640 */
 {
@@ -236,6 +249,7 @@ html {
 }
 
 }
+
 
 
 .box1 {
@@ -382,6 +396,8 @@ h6 {
 
 
 @media all and (max-width: 800px) {
+
+  
 
     h4 {
     font-family: "Amatic SC";
